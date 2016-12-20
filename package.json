@@ -1,12 +1,12 @@
 {
     "name": "min2time",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "/dist/app.js",
     "scripts": {
         "pretest": "tsc",
         "test": "mocha dist/test.js",
-        "prepublish": "tsc"
+        "prepublish": "npm test"
     },
     "repository": {
         "type": "git",
