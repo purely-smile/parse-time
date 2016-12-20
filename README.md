@@ -2,14 +2,14 @@
 
 #### install
 
-`bash
+```bash
 npm install min2time
-`
+```
 
-`js
+````js
 let parseTime = require('min2time');
 
 parseTime(60);  // 01:00
 
 parseTime('01:00')  // 60
-`
+```
