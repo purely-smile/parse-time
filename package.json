@@ -8,6 +8,10 @@
         "test": "mocha dist/test.js",
         "prepublish": "tsc"
     },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:purely-smile/parse-time.git"
+    },
     "author": "",
     "license": "ISC",
     "devDependencies": {
